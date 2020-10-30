@@ -1,0 +1,97 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "1c412988-ba71-40af-8b9b-b5be27fe3a6f",
+  "packageName": "com.microsoft.teams.newemployeeonboarding",
+  "developer": {
+    "name": "<company name>",
+    "websiteUrl": "<website Url>",
+    "privacyUrl": "<company privacy Url>",
+    "termsOfUseUrl": "<company terms of use Url>"
+  },
+  "localizationInfo": {
+    "defaultLanguageTag": "en",
+    "additionalLanguages": [
+      {
+        "languageTag": "en-US",
+        "file": "en-US.json"
+      }
+    ]
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "New Employee Onboarding",
+    "full": "New Employee Onboarding"
+  },
+  "description": {
+    "short": "New employee on boarding app will simplify employee on boarding",
+    "full": "New employee on boarding app will simplify the new employee on boarding using MS Teams and SharePoint Online. NEO bot will be created to cater to below requirements."
+  },
+  "accentColor": "#7BFFFE",
+  "bots": [
+    {
+      "botId": "<<botId>>",
+      "scopes": [
+        "personal",
+        "team"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "personal"
+          ],
+          "commands": [
+            {
+              "title": "New employee checklist",
+              "description": "View your learning path"
+            },
+            {
+              "title": "Share feedback",
+              "description": "Submit an idea or feedback"
+            },
+            {
+              "title": "Review introductions",
+              "description": "Review employee intros"
+            },
+            {
+              "title": "Help",
+              "description": "Take a tour"
+            }
+          ]
+        }
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "staticTabs": [
+    {
+      "entityId": "Journey",
+      "name": "New employee checklist",
+      "contentUrl": "<<SharePointNewHireCheckListUrl>>",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "configurableTabs": [
+    {
+      "configurationUrl": "<<azurefdurl>>/config-tab",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "validDomains": [
+    "<<appDomain>>"
+  ],
+  "webApplicationInfo": {
+    "id": "<<botId>>",
+    "resource": "<ApplicationIdURI>"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "suggestedTabDisplayName": "Feedback",
+  "configureTabMessage": "Please click Save to get started.",
+  "signInText": "Sign in",
+  "loginErrorMessage": "Please sign in to continue.",
+  "generalErrorMessage": "Something went wrong. Try again in a few minutes. If the problem persists, contact your IT admin for help.",
+  "unauthorizedErrorMessage": "You are not authorized to view this page.",
+
+  "excelViewHeaderText": "Feedback Data",
+  "columnHeaderMonthText": "Feedback submitted on",
+  "columnHeaderNewHireNameText": "New hire name",
+  "columnHeaderFeedbackText": "Feedback",
+  "downloadFeedbackButtonText": "Download",
+  "noFeedbackDataFoundMessage": "No feedback found.",
+
+  "feedbackExcelFileName": "Feedback",
+  "feedbackExcelSheetName": "Feedbacks",
+
+  "monthLabelText": "Month",
+  "yearLabelText": "Year",
+  "submitButtonText": "View",
+
+  "months": "January,February,March,April,May,June,July,August,September,October,November,December"
+}

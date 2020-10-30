@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessOnDemandBulletPoint" xml:space="preserve">
+    <value>* New employee checklist - Type this to view your New employee checklist</value>
+    <comment>Bullet point text to show in welcome card.</comment>
+  </data>
+  <data name="AlternativeText" xml:space="preserve">
+    <value>Image is not available</value>
+    <comment>Text to show as alternative if image is not available.</comment>
+  </data>
+  <data name="ApproveButtonText" xml:space="preserve">
+    <value>Approve</value>
+    <comment>Button text to show in notification card.</comment>
+  </data>
+  <data name="CardContentText" xml:space="preserve">
+    <value>We value your feedback. How is onboarding going for you?</value>
+    <comment>Text to show in notification survey card.</comment>
+  </data>
+  <data name="CardHeaderText" xml:space="preserve">
+    <value>New employee survey</value>
+    <comment>Text to show as header in notification survey card.</comment>
+  </data>
+  <data name="CardSubHeaderText" xml:space="preserve">
+    <value>Help make the new hire experience even better!</value>
+    <comment>Text to show as subheader in notification survey card.</comment>
+  </data>
+  <data name="EditIntroButtonText" xml:space="preserve">
+    <value>Edit intro</value>
+    <comment>Button text to show in tell me more card.</comment>
+  </data>
+  <data name="EditIntroCardHeaderText" xml:space="preserve">
+    <value>Hey there! Have a look!</value>
+    <comment>Text to show as header in tell me more card.</comment>
+  </data>
+  <data name="EditIntroCardSubHeaderText" xml:space="preserve">
+    <value>Your manager would you to update your introduction.</value>
+    <comment>Text to show as subheader in tell me more card.</comment>
+  </data>
+  <data name="CompleteLearningPlanNotExistText" xml:space="preserve">
+    <value>Your complete plan is not available right now.</value>
+    <comment>Show this message if complete learning plan is not available.</comment>
+  </data>
+  <data name="DateFormat" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Used in date string format for adaptive card. {0} is for date and {1} is for time.</comment>
+  </data>
+  <data name="GetStartedButtonText" xml:space="preserve">
+    <value>Take survey</value>
+    <comment>Button text to show in notification survey card.</comment>
+  </data>
+  <data name="HelpBulletPoint" xml:space="preserve">
+    <value>* Share feedback - Type this to share thoughts on improving the NEO experience</value>
+    <comment>Bullet point text to show in welcome card.</comment>
+  </data>
+  <data name="IntroduceButtonText" xml:space="preserve">
+    <value>Introduce yourself</value>
+    <comment>Button text to show in welcome card.</comment>
+  </data>
+  <data name="ManagerCommentsTitleText" xml:space="preserve">
+    <value>Manager's comments:</value>
+    <comment>Title text to show in tell me more card.</comment>
+  </data>
+  <data name="LearningPlanShareFeedbackButtonText" xml:space="preserve">
+    <value>Share feedback</value>
+    <comment>Share feedback button text to show on learning plan card.</comment>
+  </data>
+  <data name="LearningPlanWeekListCardTitleText" xml:space="preserve">
+    <value>{0} plan</value>
+    <comment>Complete learning plan week 1 title text for list card. {0} learning week.</comment>
+  </data>
+  <data name="MoreInfoBulletPoint" xml:space="preserve">
+    <value>Get started now by introducing yourself:</value>
+    <comment>Bullet point text to show in welcome card.</comment>
+  </data>
+  <data name="NotLoginText" xml:space="preserve">
+    <value>To submit your introduction, you’ll need to sign in.</value>
+    <comment>Text to show if user is not logged in.</comment>
+  </data>
+  <data name="PostInTeamButtonText" xml:space="preserve">
+    <value>Post in channel</value>
+    <comment>Button text to show in team hiring manager notification card.</comment>
+  </data>
+  <data name="TeamConfirmHeaderText" xml:space="preserve">
+    <value>Great! Now, tell me where to post this intro.</value>
+    <comment>Text to show as header in hiring manager notification card when clicks on approve button.</comment>
+  </data>
+  <data name="TellMeMoreButtonText" xml:space="preserve">
+    <value>Request more details</value>
+    <comment>Button text to show in  hiring manager notification card.</comment>
+  </data>
+  <data name="ShareFeedbackButtonText" xml:space="preserve">
+    <value>Share feedback</value>
+    <comment>View complete learning plan share feedback button text to show on learning plan list card.</comment>
+  </data>
+  <data name="ViewCompleteLearningPlanButtonText" xml:space="preserve">
+    <value>New employee checklist</value>
+    <comment>View complete learning plan button text to show on learning plan list card.</comment>
+  </data>
+  <data name="UnSupportedBotCommand" xml:space="preserve">
+    <value>I don't know that command.</value>
+    <comment>Text to show if bot command is not valid.</comment>
+  </data>
+  <data name="ViewLearningButtonText" xml:space="preserve">
+    <value>View weekly plan</value>
+    <comment>Button text to show in welcome card.</comment>
+  </data>
+  <data name="ViewLearningPlanButtonText" xml:space="preserve">
+    <value>View learning</value>
+    <comment>View learning plan button text to show on learning plan card.</comment>
+  </data>
+  <data name="WelcomeContentText" xml:space="preserve">
+    <value>I'll help you introduce yourself to the team and send you weekly learning plans. And, I'll respond to the following commands in this chat:</value>
+    <comment>Text to show in welcome card.</comment>
+  </data>
+  <data name="WelcomeHeaderText" xml:space="preserve">
+    <value>Official Onboarding Assistant</value>
+    <comment>Text to show as header in welcome card.</comment>
+  </data>
+  <data name="WelcomeMessageText" xml:space="preserve">
+    <value>Hi, I'm NEO, the New Employee Onboarding bot.</value>
+    <comment>Text to greet user with application name.</comment>
+  </data>
+  <data name="WelcomeSubHeaderText" xml:space="preserve">
+    <value>Say hello to NEO!</value>
+    <comment>Text to show as subheader in welcome card.</comment>
+  </data>
+  <data name="IntroductionGreetText" xml:space="preserve">
+    <value>Hi all, {0} here, happy to join as a part of the team. I don't really know what to say though. Please reach out to me if you have any question.:)</value>
+    <comment>Text to show as header in introduction card. {0} new hire name.</comment>
+  </data>
+  <data name="IntroductionText" xml:space="preserve">
+    <value>Hello! we strive to create strong teams and an inclusive environment. The first step is helping our employees know one another. Take a moment to tell us about yourself. We'll share this info with the team.</value>
+    <comment>Text to show in welcome card.</comment>
+  </data>
+  <data name="MoreInfoCardSubHeaderText" xml:space="preserve">
+    <value>Please explain what you'd like to see updated. I will send your comments to {0}.</value>
+    <comment>Title text to show as subheader in tell me more card. {0} new hire name.</comment>
+  </data>
+  <data name="NewEmployeeTitleText" xml:space="preserve">
+    <value>New employee intros</value>
+    <comment>Header text to show in review introdutcion list card.</comment>
+  </data>
+  <data name="SendButtonText" xml:space="preserve">
+    <value>Send</value>
+    <comment>Button text to show in hiring manager notification card.</comment>
+  </data>
+  <data name="IntroductionSubmitButtonText" xml:space="preserve">
+    <value>Submit</value>
+    <comment>Button text to show in introduction card.</comment>
+  </data>
+  <data name="ValidationMessageText" xml:space="preserve">
+    <value>*Make sure you answer all the questions</value>
+    <comment>Text to show as validation message when user does nt  fill all the required fields.</comment>
+  </data>
+  <data name="ChatButtonText" xml:space="preserve">
+    <value>Chat with {0}</value>
+    <comment>Button text to show in team notification card. {0} new hire name.</comment>
+  </data>
+  <data name="CommentsPlaceHolderText" xml:space="preserve">
+    <value>Type your comments (200 characters max.)</value>
+    <comment>Text to show as placehoder in tell me more card.</comment>
+  </data>
+  <data name="NotificationContentText" xml:space="preserve">
+    <value>Hi everyone! Please welcome {0} to our team!</value>
+    <comment>Header text to show team notification card. {0} new hire name.</comment>
+  </data>
+  <data name="TeamNotificationHeaderText" xml:space="preserve">
+    <value>{0} has joined the team!</value>
+    <comment>Text to show as header in team notification card. {0} is new hire name.</comment>
+  </data>
+  <data name="ApprovedMessageText" xml:space="preserve">
+    <value>Your introduction is approved by your manager. Soon, he'll share it with the team.</value>
+    <comment>Text to show in task module when introduction status is approved.</comment>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>New Employee Onboarding</value>
+    <comment>Application title to show in card.</comment>
+  </data>
+  <data name="IntroSubmittedMessage" xml:space="preserve">
+    <value>Thanks so much! I've shared your intro with your manager. I'll let you know if anything else is needed.</value>
+    <comment>Text to show in chat after employee has done with introduction form.</comment>
+  </data>
+  <data name="PendingMessageText" xml:space="preserve">
+    <value>Thank you. Your intro is pending approval from your manager.</value>
+    <comment>Text to show in task module when introduction status is pending.</comment>
+  </data>
+  <data name="SuccessfulPostedMessage" xml:space="preserve">
+    <value>Intro successfully posted in selected channel.</value>
+    <comment>Text to show in chat after introduction has approved by manager.</comment>
+  </data>
+  <data name="IntroductionInputPlaceholderText" xml:space="preserve">
+    <value>Type a brief intro (500 characters max.)</value>
+    <comment>Placeholder text for introduction answer textbox.</comment>
+  </data>
+  <data name="RequestMoreInfoNotificationText" xml:space="preserve">
+    <value>Your request for more details has been sent to the employee.</value>
+    <comment>Notification message to show to user when asking for more information.</comment>
+  </data>
+  <data name="GenericErrorMessageText" xml:space="preserve">
+    <value>Unable to reach app. Please try again in a few minutes.</value>
+    <comment>Text to show as generic error message to end user.</comment>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Something went wrong. Try again in a few minutes.</value>
+    <comment>Error message when bot throws exception or unable to perform a task (Generic error message).</comment>
+  </data>
+  <data name="ManagerUnavailableText" xml:space="preserve">
+    <value>Your manager hasn't added the NEO bot and didn't receive your intro. Please let your manager know.</value>
+    <comment>Text to show when manager is not available.</comment>
+  </data>
+  <data name="ManagerApprovalValidationText" xml:space="preserve">
+    <value>You have already approved this introduction.</value>
+    <comment>Text to show on Task Module for Hiring Manager if introduction is already approved.</comment>
+  </data>
+  <data name="SignInButtonText" xml:space="preserve">
+    <value>Sign In</value>
+    <comment>Text to show as sign in button text</comment>
+  </data>
+  <data name="SignInHeaderText" xml:space="preserve">
+    <value>Please Sign In</value>
+    <comment>Text to show as sign-in text</comment>
+  </data>
+  <data name="FeedbackHeaderText" xml:space="preserve">
+    <value>**We would love to hear from you!**</value>
+    <comment>Text to show in share feedback card header.</comment>
+  </data>
+  <data name="FeedbackPlaceHolderText" xml:space="preserve">
+    <value>Type your feedback</value>
+    <comment>Text to show in share feedback text box as place holder message.</comment>
+  </data>
+  <data name="FeedbackTitleText" xml:space="preserve">
+    <value>Feedback</value>
+    <comment>Test to show in share feedback card title.</comment>
+  </data>
+  <data name="SubmitButtonText" xml:space="preserve">
+    <value>Submit</value>
+    <comment>Text to show in share feedback card button.</comment>
+  </data>
+  <data name="NoPendingIntroductionText" xml:space="preserve">
+    <value>There are no intros for you to review right now.</value>
+    <comment>Text to show when there is no pending introductions for hiring manager.</comment>
+  </data>
+  <data name="RequiredFieldText" xml:space="preserve">
+    <value>*Required</value>
+    <comment>Text to show when team is not selected.</comment>
+  </data>
+  <data name="TellMeMoreInputValidationText" xml:space="preserve">
+    <value>Comments can't be left empty. Try again.</value>
+    <comment>Text to show as validation message where hiring manager sends with empty more info.</comment>
+  </data>
+  <data name="FeedbackSuccessMessageText" xml:space="preserve">
+    <value>Thanks for your feedback. I'll share it with onboarding team.</value>
+    <comment>Text to show on successfull feedback submit.</comment>
+  </data>
+  <data name="FeedbackRequiredFieldText" xml:space="preserve">
+    <value>Feedback can't be empty. Try again.</value>
+    <comment>Text to show as error message if feedback is not provided</comment>
+  </data>
+  <data name="ViewReportCardHeaderText" xml:space="preserve">
+    <value>Hey! You have feedback to review.</value>
+    <comment>Text to show as view feedback card header.</comment>
+  </data>
+  <data name="ViewReportCardTitleText" xml:space="preserve">
+    <value>Monthly feedback alert</value>
+    <comment>Text to show as view feedback card title.</comment>
+  </data>
+  <data name="ViewReportUserMessageText" xml:space="preserve">
+    <value>I've complied recent feedback from new hires in an excel document for you.</value>
+    <comment>Text to show as message in view report card.</comment>
+  </data>
+  <data name="HiringManagerBulletPoint1Text" xml:space="preserve">
+    <value>* Review introductions - Type this to review new employee intros</value>
+    <comment>Text to show in hiring manager welcome card.</comment>
+  </data>
+  <data name="HiringManagerBulletPoint2Text" xml:space="preserve">
+    <value>* Share feedback - Type this to share thoughts on improving the NEO experience</value>
+    <comment>Text to show in hiring manager welcome card.</comment>
+  </data>
+  <data name="HiringManagerWelcomeContentText" xml:space="preserve">
+    <value>I help managers approve employee intros and distribute onboarding plans. Also, I respond to the following commands:</value>
+    <comment>Text to show in hiring manager welcome card.</comment>
+  </data>
+  <data name="HumanResourceBulletPointText" xml:space="preserve">
+    <value>* View/download feedback</value>
+    <comment>Text to show in human resource welcome card.</comment>
+  </data>
+  <data name="HumanResourceWelcomeContentText" xml:space="preserve">
+    <value>I help new employees onboard and ramp up quickly. Then, I collect feedback to share with the HR team on how the onboarding experience can be improved. I will send you a monthly feedback report.</value>
+    <comment>Text to show in human resource welcome card.</comment>
+  </data>
+  <data name="TeamWelcomeCardBulletPointText" xml:space="preserve">
+    <value>* Introduce new employees</value>
+    <comment>Text to show in team welcome card.</comment>
+  </data>
+  <data name="TeamWelcomeContentText" xml:space="preserve">
+    <value>I help new hires meet the team and ramp up quickly. Here's what I'll do in this channel:</value>
+    <comment>Text to show in team welcome card.</comment>
+  </data>
+  <data name="ReviewIntroductionTitle" xml:space="preserve">
+    <value>Review introductions</value>
+    <comment>Text to show in carousel card header.</comment>
+  </data>
+  <data name="ViewCompleteLearningPlanTitle" xml:space="preserve">
+    <value>New employee checklist</value>
+    <comment>Text to show in carousel card header.</comment>
+  </data>
+  <data name="LearningPlanBriefText" xml:space="preserve">
+    <value>Get an overview of what you'll learn as a new hire.</value>
+    <comment>Text to show as subheader in carousel card.</comment>
+  </data>
+  <data name="ReviewIntroductionsBriefText" xml:space="preserve">
+    <value>As a manager, you can approve employee intros before they're posted in the channel.</value>
+    <comment>Text to show as subheader in carousel card.</comment>
+  </data>
+  <data name="ReviewIntroductionsText" xml:space="preserve">
+    <value>Review introductions</value>
+    <comment>Button text to show in carousel card.</comment>
+  </data>
+  <data name="BotNotInstalledInTeamMessageText" xml:space="preserve">
+    <value>Your introduction couldn't be posted. You must first add the bot to a team where you're a member.</value>
+    <comment>Message to show if bot is not installed in team.</comment>
+  </data>
+  <data name="UserNotMappedWithManagerMessageText" xml:space="preserve">
+    <value>User is not mapped with manager in Graph.</value>
+    <comment>Message to show if user is not mapped with manager in Graph.</comment>
+  </data>
+  <data name="SigoutText" xml:space="preserve">
+    <value>You have been signed out.</value>
+    <comment>Text to show signed out message.</comment>
+  </data>
+  <data name="HelpCardHeaderText" xml:space="preserve">
+    <value>I don't know that command. Take a tour to learn the commands you can type and what they do.</value>
+    <comment>Text to show in help card header.</comment>
+  </data>
+  <data name="IntroductionBriefText" xml:space="preserve">
+    <value>Tell us a little about yourself. Once approved by your manager, I'll share your intro with your team.</value>
+    <comment>Text to show as subheader for introduction in carousel card.</comment>
+  </data>
+  <data name="IntroductionTitle" xml:space="preserve">
+    <value>Introduce yourself</value>
+    <comment>Text to show  introduction title in carousel card.</comment>
+  </data>
+  <data name="OnBoardingCheckListTitle" xml:space="preserve">
+    <value>New employee checklist</value>
+    <comment>Text to show On-boarding check list title in carousel card.</comment>
+  </data>
+  <data name="ShareFeedbackBriefText" xml:space="preserve">
+    <value>Share feedback on the onboarding experience so we can make it even better for future hires.</value>
+    <comment>Text to show as subheader for feedback in carousel card.</comment>
+  </data>
+  <data name="ShareFeedbackTitle" xml:space="preserve">
+    <value>Share feedback</value>
+    <comment>Text to show  feedback title in carousel card.</comment>
+  </data>
+  <data name="TakeaTourButtonText" xml:space="preserve">
+    <value>Take a tour</value>
+    <comment>Button text to show in welcome card.</comment>
+  </data>
+  <data name="IntroductionHeaderText" xml:space="preserve">
+    <value>Intro</value>
+    <comment>Text to show as title in introduction card.</comment>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Help</value>
+    <comment>Text for bot personal help command.</comment>
+  </data>
+  <data name="LogoutText" xml:space="preserve">
+    <value>Logout</value>
+    <comment>Text for bot personal logout command.</comment>
+  </data>
+  <data name="OnBoardingCheckListText" xml:space="preserve">
+    <value>New employee checklist</value>
+    <comment>Text for bot personal onboarding check list command.</comment>
+  </data>
+  <data name="RequestMoreInfoText" xml:space="preserve">
+    <value>Requestmoreinfo</value>
+    <comment>Text for bot personal requestmoreinfo command.</comment>
+  </data>
+  <data name="ReviewIntroductionText" xml:space="preserve">
+    <value>Review introductions</value>
+    <comment>Text for bot personal review introductions command.</comment>
+  </data>
+  <data name="ShareFeedbackText" xml:space="preserve">
+    <value>Share feedback</value>
+    <comment>Text for bot personal share feedback command.</comment>
+  </data>
+  <data name="SubmitFeedbackCommandText" xml:space="preserve">
+    <value>Submitfeedback</value>
+    <comment>Text for bot personal submitfeedback command.</comment>
+  </data>
+  <data name="ViewLearningText" xml:space="preserve">
+    <value>Learnings</value>
+    <comment>Text for bot personal Learnings command.</comment>
+  </data>
+  <data name="InvalidTenantText" xml:space="preserve">
+    <value>This is not a valid tenant.</value>
+    <comment>Text to show as error when bot is deployed in different tenant.</comment>
+  </data>
+  <data name="ReviewIntroductionCommandText" xml:space="preserve">
+    <value>Review introduction</value>
+    <comment>Text for compare review introduction command.</comment>
+  </data>
+  <data name="ViewWeeklyLearningPlanCommandText" xml:space="preserve">
+    <value>Week</value>
+    <comment>Text for compare weekly learning plan command.</comment>
+  </data>
+  <data name="SeeMoreDetailsButtonText" xml:space="preserve">
+    <value>See more details</value>
+    <comment>Button text to show on team notification card.</comment>
+  </data>
+  <data name="MeetupTitle" xml:space="preserve">
+    <value>{0} / {1} Meet up</value>
+    <comment>The title for the Meetup - {0} is the name of the first person that user has been matched with and {1} is the name of the user</comment>
+  </data>
+  <data name="ChatWithMatchButtonText" xml:space="preserve">
+    <value>Chat with {0}</value>
+    <comment>Button text to initiate a chat with the person the user has been matched up with. {0} new hire name.</comment>
+  </data>
+  <data name="ErrorInUpdatingUserChoice" xml:space="preserve">
+    <value>Something went wrong when I tried to handle your request. Bot is unable to update user details right now. Try again in a few minutes.</value>
+    <comment>Error message when bot is unable to update user detail in storage.</comment>
+  </data>
+  <data name="InitiateChatText" xml:space="preserve">
+    <value>Hi there,</value>
+    <comment>Initiation chat text message.</comment>
+  </data>
+  <data name="MatchUpCardContentPart1" xml:space="preserve">
+    <value>Hi there again, I'm {0}. A bot that pairs you with a new coworker to meet each week. This week your match is {1}</value>
+    <comment>First part of the match up card main content. {0} bot name.</comment>
+  </data>
+  <data name="MatchUpCardContentPart2" xml:space="preserve">
+    <value>If you've got the inclination, set something up. See, meeting people *is* easy!</value>
+    <comment>Second part of the match up card main content</comment>
+  </data>
+  <data name="MatchUpCardMatchedText" xml:space="preserve">
+    <value>You've been matched with {0}.</value>
+    <comment>The text saying who the user has been matched up with. {0}  new hire name.</comment>
+  </data>
+  <data name="MatchUpCardTitleContent" xml:space="preserve">
+    <value>It's time for a match!</value>
+    <comment>The title text for the pairup notification adaptive card</comment>
+  </data>
+  <data name="MeetupContent" xml:space="preserve">
+    <value>Hey there, looks like we've been matched by {0} this week. It'd be great to meet up for a coffee or a lunch or a call if you've got time.</value>
+    <comment>Content of the Meetup for the propose meeting. {0} pair up new hire name.</comment>
+  </data>
+  <data name="PausedMatchesCardContent" xml:space="preserve">
+    <value>All set. I've resumed your matches. You can turn them off whenever you like.</value>
+    <comment>Content text for pause all matches card.</comment>
+  </data>
+  <data name="PauseMatchesButtonText" xml:space="preserve">
+    <value>Pause all matches</value>
+    <comment>Button text to pause pairings</comment>
+  </data>
+  <data name="ProposeMeetupButtonText" xml:space="preserve">
+    <value>Propose meetup</value>
+    <comment>Button text to propose the meetup with the match of the user</comment>
+  </data>
+  <data name="ResumeMatchesButtonText" xml:space="preserve">
+    <value>Resume matches</value>
+    <comment>Button text to resume pairings</comment>
+  </data>
+  <data name="ResumeMatchesCardContent" xml:space="preserve">
+    <value>I've paused your matches. You can resume them at any time.</value>
+    <comment>Content text for resume all matches card.</comment>
+  </data>
+  <data name="NoCurrentWeekPlanText" xml:space="preserve">
+    <value>A learning plan is not available this week. Check in with your manager for more information.</value>
+    <comment>Text to show as validation message when there is no learning plan for current week.</comment>
+  </data>
+  <data name="FeedbackReportNavigationText" xml:space="preserve">
+    <value>To view or download your report,  go to the Feedback tab in this channel.</value>
+    <comment>Text to show in view feedback report card.</comment>
+  </data>
+  <data name="CurrentWeekLearningPlanNotExistText" xml:space="preserve">
+    <value>Learning plan is not available for this week.</value>
+    <comment>Text to show as validation message when there is no learning plan available for current week.</comment>
+  </data>
+  <data name="ReviewIntroductionInvalidCommandText" xml:space="preserve">
+    <value>New hire name can't be empty. Try again.</value>
+    <comment>Text to show as invalid review introduction command.</comment>
+  </data>
+  <data name="BoardingCheckListHeaderText" xml:space="preserve">
+    <value>Please click on to view complete on boarding plan.</value>
+    <comment>Text to show as header in onboarding check list card.</comment>
+  </data>
+</root>

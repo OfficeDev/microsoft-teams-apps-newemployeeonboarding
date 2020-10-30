@@ -1,0 +1,70 @@
+﻿
+.dialog-container-view-feedback {
+    background: transparent !important;
+    padding: 0rem !important;
+}
+
+.input-fields-margin-between-add-post {
+    margin-top: 1rem;
+}
+.margin-top {
+    margin-top:0.7rem;
+}
+.margin-right {
+    margin-right: 1rem;
+}
+.margin-bottom {
+    margin-bottom: 1rem;
+}
+.margin-left {
+    margin-left: inherit!important;
+}
+.input-label-space-between {
+    margin-top: 0.3rem;
+}
+
+.dateContainer {
+    width: 55% !important;
+}
+
+.dropdown-button {
+    width: 50% !important;
+}
+
+.feedback-filter-section {
+    margin-bottom: 3rem;
+}
+
+
+.feedback-message {
+    text-align: center;
+    width: 80%;
+    height: 10rem;
+    position: absolute;
+    top: 4rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.feedback-excel-section {
+    width: auto!important;
+    overflow: auto;
+}
+
+/*Buttons width*/
+.id {
+    max-width: 15rem !important;
+}
+
+.margin-button-top {
+    margin-top: 1rem;
+}
+
+@media only screen and (min-width: 651px) and (max-width: 700px) {
+    .margin-button-top {
+        margin-top:1rem;
+    }
+}
