@@ -9,7 +9,7 @@ urlFragment: microsoft-teams-apps-newemployeeonboarding
 ---
 
 # New Employee Onboarding
-| [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding/wiki/Home.md) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding/wiki/Deployment-Guide.md) | [Architecture](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding/wiki/Solution-overview.md) |
+| [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding/wiki/Home) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding/wiki/Deployment-Guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding/wiki/Solution-overview) |
 | ---- | ---- | ---- |
 
 Organization seeks to ease the process of onboarding  the new hires into the organization. Based on the user experience, organization approached Microsoft to provide a customized app called New Employee Orientation App (NEO for short) for their organization where the new hires can complete their onboarding journey via Teams. 
@@ -66,7 +66,7 @@ This app template is provided under the [MIT License](https://github.com/OfficeD
 
 Thoughts? Questions? Ideas? Share them with us on [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)  
 
-Please report bugs and other code issues [here](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding/wiki/Deployment-guide). 
+Please report bugs and other code issues [here](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding/issues/new). 
 
 ## Contributing
 
