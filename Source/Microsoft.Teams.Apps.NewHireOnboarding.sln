@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Teams.Apps.NewHireOnboarding", "Microsoft.Teams.Apps.NewHireOnboarding\Microsoft.Teams.Apps.NewHireOnboarding.csproj", "{DC869F7B-FDEB-40FE-AD80-811F86BECFE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Teams.Apps.NewHireOnboarding.Tests", "Microsoft.Teams.Apps.NewHireOnboarding.Tests\Microsoft.Teams.Apps.NewHireOnboarding.Tests.csproj", "{7F5FB044-C8CF-4A46-A85B-0EFAB2220FF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC869F7B-FDEB-40FE-AD80-811F86BECFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC869F7B-FDEB-40FE-AD80-811F86BECFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC869F7B-FDEB-40FE-AD80-811F86BECFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC869F7B-FDEB-40FE-AD80-811F86BECFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5FB044-C8CF-4A46-A85B-0EFAB2220FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5FB044-C8CF-4A46-A85B-0EFAB2220FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5FB044-C8CF-4A46-A85B-0EFAB2220FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5FB044-C8CF-4A46-A85B-0EFAB2220FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05F200CE-FB13-429D-BBF6-B513F2D6E511}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UserSecretsId>dd86c223-9f98-4cbb-ab05-ae4132b7f7a5</UserSecretsId>
+		<LangVersion>latest</LangVersion>
+		<SpaRoot>ClientApp\</SpaRoot>
+		<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+		<TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="AdaptiveCards" Version="1.2.3" />
+		<PackageReference Include="AsyncUsageAnalyzers" Version="1.0.0-alpha003">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.12.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="3.1.7" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.7" />
+		<PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.7" />
+		<PackageReference Include="Microsoft.Azure.KeyVault" Version="3.0.5" />
+		<PackageReference Include="Microsoft.Azure.Services.AppAuthentication" Version="1.6.0" />
+		<PackageReference Include="Microsoft.Bot.Builder.Azure" Version="4.2.2" />
+		<PackageReference Include="Microsoft.Bot.Builder.Dialogs" Version="4.9.2" />
+		<PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.9.4" />
+		<PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.7" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.1.1" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="2.1.1" />
+		<PackageReference Include="Microsoft.Extensions.Http.Polly" Version="2.1.1" />
+		<PackageReference Include="Microsoft.Extensions.Logging.ApplicationInsights" Version="2.14.0" />
+		<PackageReference Include="Microsoft.Graph" Version="3.14.0" />
+		<PackageReference Include="Microsoft.Rest.ClientRuntime.Azure" Version="3.3.19" />
+		<PackageReference Include="Microsoft.Graph.Beta" Version="0.27.0-preview" />
+		<PackageReference Include="Microsoft.Identity.Client" Version="4.17.1" />
+		<PackageReference Include="Polly.Contrib.WaitAndRetry" Version="1.1.1" />
+		<PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+	<ItemGroup>
+		<!-- Don't publish the SPA source files, but do show them in the project files list -->
+		<Content Remove="$(SpaRoot)**" />
+		<None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+	</ItemGroup>
+	<PropertyGroup>
+		<CodeAnalysisRuleSet>$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), .gitignore))\Build\Analyzer.ruleset</CodeAnalysisRuleSet>
+		<DocumentationFile>bin\$(Configuration)\$(Platform)\$(AssemblyName).xml</DocumentationFile>
+		<NeutralLanguage>en</NeutralLanguage>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="ClientApp\src\api\__mocks__\view-feedback-api.ts" />
+	  <None Remove="ClientApp\src\components\__tests__\view-feedback-page-test.tsx" />
+	</ItemGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="D:\AppTemplate\Feature6_UT\Build\stylecop.json" />
+	</ItemGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="D:\AppTemplate\Feature6_UT\Build\stylecop.json" />
+	</ItemGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="D:\AppTemplate\Feature6_UT\Build\stylecop.json" />
+	</ItemGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="D:\AppTemplate\Feature6_UT\Build\stylecop.json" />
+	</ItemGroup>
+	<ItemGroup>
+		<AdditionalFiles Include="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), .gitignore))\Build\stylecop.json" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Update="Resources\Strings.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Strings.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Update="Resources\Strings.resx">
+			<Generator>PublicResXFileCodeGenerator</Generator>
+			<LastGenOutput>Strings.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="ClientApp\src\components\view-feedback\" />
+		<Folder Include="Properties\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <TypeScriptCompile Include="ClientApp\src\api\__mocks__\view-feedback-api.ts" />
+	  <TypeScriptCompile Include="ClientApp\src\components\__tests__\view-feedback-page-test.tsx" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Update="wwwroot\Artifacts\applicationLogo.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\feedbackCarouselImage.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\hiringManagerNotification.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\introductionImage.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\learningPlan.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\learningPlanImage.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\listCardDefaultImage.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\moreInformationImage.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\newHireIntroduction.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\notificationAvatar.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\notificationSurvey.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\peopleAvatar.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\reviewintrosCarouselImage.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\viewSubmittedFeedback.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\welcomeCardImage.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\Artifacts\welcomeImage.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+	<Target Name="ChangeAliasesOfStrongNameAssemblies" BeforeTargets="FindReferenceAssembliesForReferences;ResolveReferences">
+		<ItemGroup>
+			<ReferencePath Condition="'%(FileName)' == 'Microsoft.Graph.Beta'">
+				<Aliases>BetaLib</Aliases>
+			</ReferencePath>
+		</ItemGroup>
+	</Target>
+	<Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+		<!-- Ensure Node.js is installed -->
+		<Exec Command="node --version" ContinueOnError="true">
+			<Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+		</Exec>
+		<Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+		<Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+		<Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+	</Target>
+
+	<Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+		<!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+		<Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+		<Exec Condition=" '$(KuduDeployment)' == '' " WorkingDirectory="$(SpaRoot)" Command="npm install --no-audit" />
+		<Message Importance="high" Text="Building the client app using 'npm'. This may take several minutes..." />
+		<Exec Condition=" '$(KuduDeployment)' == '' " WorkingDirectory="$(SpaRoot)" Command="npm run build" />
+		<Message Importance="high" Text="Finished building the client app" />
+
+		<!-- Include the newly-built files in the publish output -->
+		<ItemGroup>
+			<DistFiles Include="$(SpaRoot)build\**; $(SpaRoot)build-ssr\**" />
+			<ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+				<RelativePath>%(DistFiles.Identity)</RelativePath>
+				<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+			</ResolvedFileToPublish>
+		</ItemGroup>
+	</Target>
+
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties appsettings_1json__JsonSchema="" />
+		</VisualStudio>
+	</ProjectExtensions>
+</Project>

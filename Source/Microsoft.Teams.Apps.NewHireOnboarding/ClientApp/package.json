@@ -1,0 +1,65 @@
+{
+  "name": "newhireonboarding",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@fluentui/react": "^7.115.4",
+    "@fluentui/react-northstar": "^0.51.0",
+    "@microsoft/teams-js": "1.6.0",
+    "axios": "0.19.2",
+    "bootstrap": "4.5.0",
+    "i18next": "19.4.5",
+    "i18next-xhr-backend": "^3.2.2",
+    "react": "16.13.1",
+    "react-data-export": "^0.6.0",
+    "react-dom": "16.13.1",
+    "react-i18next": "11.5.0",
+    "react-router-dom": "5.2.0",
+    "react-spreadsheet": "^0.4.47",
+    "tempa-xlsx": "^0.8.20",
+    "xlsx": "^0.16.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "jest --coverage --watchAll",
+    "test:watch": "jest --watchAll"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@react-mock/state": "^0.1.8",
+    "@types/enzyme": "^3.10.6",
+    "@types/jest": "^26.0.14",
+    "@types/node": "^12.12.21",
+    "@types/pretty": "^2.0.0",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-router-dom": "^4.3.3",
+    "@types/react-test-renderer": "^16.9.3",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.4",
+    "enzyme-to-json": "^3.5.0",
+    "jest": "^24.9.0",
+    "prettier": "2.1.2",
+    "pretty": "^2.0.0",
+    "react-scripts": "^3.4.3",
+    "react-test-renderer": "^16.13.1",
+    "ts-jest": "^26.4.0",
+    "typescript": "3.9.3"
+  }
+}

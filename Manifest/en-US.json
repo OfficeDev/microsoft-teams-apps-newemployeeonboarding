@@ -1,0 +1,16 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.Localization.schema.json",
+  "name.short": "New Employee Onboarding",
+  "name.full": "New Employee Onboarding",
+  "description.short": "New employee on boarding app will simplify the new employee on boarding using MS Teams and SharePoint Online",
+  "description.full": "New employee on boarding app will simplify the new employee on boarding using MS Teams and SharePoint Online. NEO bot will be created to cater to below requirements.",
+  "staticTabs[0].name": "New employee checklist",
+  "bots[0].commandLists[0].commands[0].title": "New employee checklist",
+  "bots[0].commandLists[0].commands[0].description": "View your learning path",
+  "bots[0].commandLists[0].commands[0].title": "Share feedback",
+  "bots[0].commandLists[0].commands[0].description": "Submit an idea or feedback",
+  "bots[0].commandLists[0].commands[0].title": "Review introductions",
+  "bots[0].commandLists[0].commands[0].description": "Review employee intros",
+  "bots[0].commandLists[0].commands[0].title": "Help",
+  "bots[0].commandLists[0].commands[0].description": "Take a tour"
+}
