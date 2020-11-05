@@ -54,7 +54,7 @@ Simplified Workflow of the NEO App
 
 * New employees receive a welcome card as soon as IT team adds to the new employee group in Azure
 
-[[/images/NewEmployee-WelcomeCard.png|New employee welcome card]] 
+![New employee welcome card](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding/wiki/images/NewEmployee-WelcomeCard.png) 
 
 * NEO app prompts the new employee to write a fun introduction. Questions can be set by the HR team at the time of deployment.
 
