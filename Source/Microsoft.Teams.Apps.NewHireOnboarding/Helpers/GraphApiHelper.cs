@@ -173,27 +173,19 @@ namespace Microsoft.Teams.Apps.NewHireOnboarding.Helpers
                 throw new ArgumentNullException(nameof(userId));
             }
 
-            var graphClient = this.GetGraphServiceClientBeta(token);
+            var graphClient = this.GetGraphServiceClient(token);
             try
             {
                 var notes = await graphClient
                     .Users[userId]
-                    .Profile
-                    .Notes
                     .Request()
+                    .Select("aboutMe")
                     .WithMaxRetry(GraphConstants.MaxRetry)
                     .GetAsync();
 
-                if (notes == null)
-                {
-                    return null;
-                }
-
-                return notes.First().Detail?.Content;
+                return notes?.AboutMe;
             }
-#pragma warning disable CA1031 // Catching general exceptions that might arise during Microsoft Graph API beta call failure to get user profile notes.
-            catch (Exception ex)
-#pragma warning restore CA1031 // Catching general exceptions that might arise during Microsoft Graph API beta call failure to get user profile notes.
+            catch (ServiceException ex)
             {
                 this.logger.LogError(ex, $"Failed to get user profile note for user: {userId}.");
 
