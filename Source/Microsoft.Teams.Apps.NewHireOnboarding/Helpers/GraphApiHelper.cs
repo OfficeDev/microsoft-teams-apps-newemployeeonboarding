@@ -173,21 +173,24 @@ namespace Microsoft.Teams.Apps.NewHireOnboarding.Helpers
                 throw new ArgumentNullException(nameof(userId));
             }
 
-            var graphClient = this.GetGraphServiceClientBeta(token);
-            var notes = await graphClient
-                .Users[userId]
-                .Profile
-                .Notes
-                .Request()
-                .WithMaxRetry(GraphConstants.MaxRetry)
-                .GetAsync();
-
-            if (notes == null)
+            var graphClient = this.GetGraphServiceClient(token);
+            try
             {
+                var notes = await graphClient
+                    .Users[userId]
+                    .Request()
+                    .Select("aboutMe")
+                    .WithMaxRetry(GraphConstants.MaxRetry)
+                    .GetAsync();
+
+                return notes?.AboutMe;
+            }
+            catch (ServiceException ex)
+            {
+                this.logger.LogError(ex, $"Failed to get user profile note for user: {userId}.");
+
                 return null;
             }
-
-            return notes.First().Detail?.Content;
         }
 
         /// <summary>
