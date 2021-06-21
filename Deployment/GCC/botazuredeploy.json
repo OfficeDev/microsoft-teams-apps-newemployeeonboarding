@@ -59,7 +59,7 @@
    "variables":{
       "botName":"[parameters('baseResourceName')]",
       "botAppName":"[parameters('baseResourceName')]",
-      "botAppDomain":"[concat(variables('botAppName'), '.azurewebsites.net')]",
+      "botAppDomain":"[concat(variables('botAppName'), '.azurewebsites.us')]",
       "botAppUrl":"[concat('https://', variables('botAppDomain'))]",
       "botAppInsightsName":"[parameters('baseResourceName')]"
    },
