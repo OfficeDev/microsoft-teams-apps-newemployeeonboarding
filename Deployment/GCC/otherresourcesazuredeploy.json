@@ -127,6 +127,13 @@
         "description": "The ID of the tenant to which the app will be deployed."
       }
     },
+	"botAppInsightsKey":{
+         "type": "securestring",
+         "minLength":1,
+         "metadata":{
+            "description": "The instrumentation key for the Application Insights created for the bot."
+         }
+    },
     "sku": {
       "type": "string",
       "allowedValues": [
@@ -188,7 +195,7 @@
     "storageAccountName": "[variables('uniqueString')]",
     "botAppInsightsName": "[parameters('baseResourceName')]",
     "keyVaultName": "[concat(variables('botAppName'), 'vault')]",
-    "keyVaultUrl": "[concat('https://',variables('keyVaultName'), '.vault.azure.us/secrets/')]",
+    "keyVaultUrl": "[concat('https://',variables('keyVaultName'), '.vault.usgovcloudapi.net/secrets/')]",
     "microsoftAppId": "MicrosoftAppId",
     "microsoftAppPassword": "MicrosoftAppPassword",
     "storageConnection": "StorageConnection",
@@ -265,7 +272,7 @@
             },
             {
               "name": "ApplicationInsights:InstrumentationKey",
-              "value": ""
+              "value": "[parameters('botAppInsightsKey')]"
             },
             {
               "name": "ApplicationInsights:LogLevel:Default",
@@ -309,7 +316,7 @@
             },
             {
               "name": "Storage:ConnectionString",
-              "value": ""
+              "value": "[concat('DefaultEndpointsProtocol=https;AccountName=', variables('storageAccountName'), ';AccountKey=', listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')),'2015-05-01-preview').key1,';EndpointSuffix=','core.usgovcloudapi.net')]"
             },
             {
               "name": "i18n:DefaultCulture",
