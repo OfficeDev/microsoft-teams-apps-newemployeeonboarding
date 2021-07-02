@@ -6,9 +6,9 @@
   "packageName": "com.microsoft.teams.newemployeeonboarding",
   "developer": {
     "name": "<company name>",
-    "websiteUrl": "<website Url>",
-    "privacyUrl": "<company privacy Url>",
-    "termsOfUseUrl": "<company terms of use Url>"
+    "websiteUrl": "<<website Url>>",
+    "privacyUrl": "<<company privacy Url>>",
+    "termsOfUseUrl": "<<company terms of use Url>>"
   },
   "localizationInfo": {
     "defaultLanguageTag": "en",
