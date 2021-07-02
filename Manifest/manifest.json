@@ -92,6 +92,6 @@
   ],
   "webApplicationInfo": {
     "id": "<<botId>>",
-    "resource": "<ApplicationIdURI>"
+    "resource": "<<ApplicationIdURI>>"
   }
 }
