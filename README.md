@@ -14,7 +14,7 @@ urlFragment: microsoft-teams-apps-newemployeeonboarding
 
 New Employee Onboarding enables your organization to connect new employees to people & culture and provide them with consistent experience and information to be productive faster. 
 
-Built with - [SharePoint New Employee Onboarding Solution](https://lookbook.microsoft.com/details/75e60a32-9849-4ed4-b83e-b2b08983ad19) with deep integration in Teams, NEO app makes it super easy for Human resources to manage relevant content and process for new employees using New Employeee Checklist. This list can guide the new hire through the onboarding journey. The checklist can be corporate or departmental. As an organization, you can choose to deploy complete SharePoint Site or just create a New Hire Checklist which can be integrated with Teams app.
+Built with - [SharePoint New Employee Onboarding Solution](https://lookbook.microsoft.com/details/75e60a32-9849-4ed4-b83e-b2b08983ad19) with deep integration in Teams, NEO app makes it super easy for Human resources to manage relevant content and process for new employees using New Employee Checklist. This list can guide the new hire through the onboarding journey. The checklist can be corporate or departmental. As an organization, you can choose to deploy complete SharePoint Site or just create a New Hire Checklist which can be integrated with Teams app.
 
 Additionally, new hires can also introduce themselves using the app by sharing information which is automatically shared with their managers. This automation makes it easier for managers to review introductions about all new hires and share them with the relevant teams in one shot! 
 
